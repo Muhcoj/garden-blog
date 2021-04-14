@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+
+<h1>Another page</h1>
+
+<ul>
+  {% for catagorie1 in site.tag.games %}
+  <li>
+    <a href="">{{catagorie1.title}}</a>
+    <p>{{catagorie1.meta}}</p>
+  </li>
+  {% endfor %}
+</ul>
